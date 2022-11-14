@@ -1,88 +1,381 @@
-@media all and (max-width: 425px){
-    .menu{
-        display: none;
-    }
-    .main__image{
-        display: none;
-    }
-    .main__para{
-        font-size: 10px;
-    }
-    .main__button{
+@media all and (max-width: 425px) {
+  .menu {
+    display: none;
+  }
+  .main__image {
+    display: none;
+  }
+  .main__para {
+    font-size: 10px;
+  }
+  .main__button {
     margin: 10px;
     margin-top: 10px;
     width: 150px;
     height: 50px;
     border-radius: 50px;
     font-size: 15px;
-    }
-    
+  }
+  .cando__panal {
+    margin-top: 20px;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .cando__image {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/Mask Group 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cando__details h1 {
+    color: #1754a3;
+  }
+  .cando__details p {
+    font-size: 12px;
+  }
+  .cando__details button {
+    position: absolute;
+    border: 0;
+    background-color: #45a2dc;
+    color: white;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    height: 20px;
+  }
+  .cando__details button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+  }
+   /* ------------------------------------ */
+
+   .teachers__panal {
+    margin-top: 30px;
+    width: 92vw;
+    height: 40vh;
+    flex-direction: column;
+  }
+  
+  .teac_ h1{
+    font-size: 50px;
+  }
+  .teac_ p{
+    font-size: 25px;
+  }
+  
+  .teac_lorem{
+    height: 50%;
+    display: flex;
+  }
 }
 @media all and (min-width: 425px) and (max-width: 768px) {
-    .menu{
-        display: none;
-    }
-    .main__image{
-        display: none;
-    }
-    .main__title{
-        font-size: 37px;
-    }
-    .main__button{
-        margin: 60px;
-        width: 350px;
-        height: 75px;
-    }
-    .main__button{
+  .menu {
+    display: none;
+  }
+  .main__image {
+    display: none;
+  }
+  .main__title {
+    font-size: 37px;
+  }
+  .main__button {
+    margin: 60px;
+    width: 350px;
+    height: 75px;
+  }
+  .main__button {
     margin: 0;
     margin-top: 10px;
     width: 203px;
     height: 75px;
     font-size: 20px;
-    }
+  }
+  .cando__panal {
+    margin-top: 20px;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .cando__image {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/Mask Group 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cando__details h1 {
+    color: #1754a3;
+    font-size: 40px;
+  }
+  .cando__details h1 samp {
+    font-size: 30px;
+  }
+  .cando__details p {
+    font-size: 14px;
+  }
+  .cando__details button {
+    position: absolute;
+    border: 0;
+    background-color: #45a2dc;
+    color: white;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    height: 20px;
+  }
+  .cando__details button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+  }
+  /* ------------------------------------ */
+
+  .teachers__panal {
+    width: 92vw;
+    height: 40vh;
+    flex-direction: column;
+  }
+  
+  .teac_ h1{
+    font-size: 50px;
+  }
+  .teac_ p{
+    font-size: 25px;
+  }
+  
+  .teac_lorem{
+    height: 50%;
+    display: flex;
+  }
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
-    .menu{
-        display: none;
-    }
-    .main__image{
-        display: none;
-    }
-    .main__title{
-        font-size: 63px;
-    }
-    .main__button{
-        margin: 60px;
-        width: 403px;
-        height: 75px;
-        font-size: 20px;
-    }
+  .menu {
+    display: none;
+  }
+  .main__image {
+    display: none;
+  }
+  .main__title {
+    font-size: 63px;
+  }
+  .main__button {
+    margin: 60px;
+    width: 403px;
+    height: 75px;
+    font-size: 20px;
+  }
+
+  .cando__panal {
+    margin-top: 20px;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .cando__image {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/Mask Group 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cando__details h1 {
+    color: #1754a3;
+    font-size: 40px;
+  }
+  .cando__details h1 samp {
+    font-size: 30px;
+  }
+  .cando__details p {
+    font-size: 14px;
+  }
+  .cando__details button {
+    position: absolute;
+    border: 0;
+    background-color: #45a2dc;
+    color: white;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    height: 20px;
+  }
+  .cando__details button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+  }
+  /* ------------------------------------ */
+
+  .teachers__panal {
+    width: 92vw;
+    height: 27vh;
+    display: flex;
+  }
+  
+  .teac_ h1{
+    font-size: 70px;
+  }
+  .teac_ p{
+    font-size: 25px;
+  }
+  
+  .teac_lorem{
+    height: 100%;
+    display: flex;
+  }
 }
 @media all and (min-width: 1024px) and (max-width: 1440px) {
-    .menu{
-        display: none;
-    }
-    .main__image{
-        display: none;
-    }
-    .main__title{
-        font-size: 63px;
-    }
-    .main__button{
-        margin: 60px;
-        width: 403px;
-        height: 75px;
-        font-size: 20px;
-    }
+  .menu {
+    display: none;
+  }
+  .main__image {
+    display: none;
+  }
+  .main__title {
+    font-size: 63px;
+  }
+  .main__button {
+    margin: 60px;
+    width: 403px;
+    height: 75px;
+    font-size: 20px;
+  }
+
+  .cando__panal {
+    margin-top: 20px;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .cando__image {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/Mask Group 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cando__details h1 {
+    color: #1754a3;
+    font-size: 40px;
+  }
+  .cando__details h1 samp {
+    font-size: 30px;
+  }
+  .cando__details p {
+    font-size: 14px;
+  }
+  .cando__details button {
+    position: absolute;
+    border: 0;
+    background-color: #45a2dc;
+    color: white;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    height: 20px;
+  }
+  .cando__details button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+  }
+  /* ------------------------------------ */
+
+  .teachers__panal {
+    width: 92vw;
+    height: 27vh;
+    display: flex;
+  }
+  
+  .teac_ h1{
+    font-size: 70px;
+  }
+  .teac_ p{
+    font-size: 25px;
+  }
+  
+  .teac_lorem{
+    height: 100%;
+    display: flex;
+  }
 }
 @media all and (min-width: 1440px) and (max-width: 2560px) {
-    .main__title{
-        font-size: 63px;
-    }
-    .main__button{
-        margin: 60px;
-        width: 403px;
-        height: 75px;
-        font-size: 20px;
-    }
+  .main__title {
+    font-size: 63px;
+  }
+  .main__button {
+    margin: 60px;
+    width: 403px;
+    height: 75px;
+    font-size: 20px;
+  }
+
+  /* --------------------- */
+
+  .cando__panal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cando__image {
+    width: 60%;
+    height: 70%;
+    background-image: url("../img/Mask Group 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cando__details {
+    position: relative;
+    width: 40%;
+    height: 70%;
+  }
+  .cando__details h1 {
+    color: #1754a3;
+  }
+
+  .cando__details button {
+    position: absolute;
+    bottom: 15px;
+    border: 0;
+    background-color: #45a2dc;
+    color: white;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+  }
+
+  .cando__details h1 {
+    font-size: 100px;
+  }
+  .cando__details h1 samp {
+    font-size: 73px;
+  }
+  .cando__details button {
+    bottom: 15px;
+    left: -45%;
+    width: 403px;
+    height: 75px;
+  }
+  .teachers__panal {
+    width: 92vw;
+    height: 27vh;
+    display: flex;
+  }
+  
+  .teac_ h1{
+    font-size: 100px;
+  }
+  .teac_ p{
+    font-size: 36px;
+  }
+  
+  .teac_lorem{
+    height: 100%;
+    display: flex;
+  }
 }
