@@ -244,3 +244,57 @@
 .image3__project{
   background-image: url("../img/Mask Group 4.png");
 }
+
+/* ----------------------------amaout panal---------------------------- */
+
+.amount__panal{
+  width: 100%;
+  height: 100%;
+  background-color: #45A2DC;
+  position: relative;
+  margin-top: 60px;
+  display: grid;
+  
+  align-items: center;
+  justify-content: stretch;
+}
+.ammout__items{
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 386px;
+}
+.ammout__items div{
+  
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1754A3;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.ammount5{
+  grid-column: span 2;
+}
+
+.amount__doc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.amount__doc button{
+  border-radius: 50px;
+  border: 0;
+  background-color: #1754A3;
+  color: white;
+  font-size: 24px;
+  margin: 20px;
+}
