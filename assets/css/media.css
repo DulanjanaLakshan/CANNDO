@@ -72,6 +72,22 @@
   }
   .amount__panal{
     grid-template-columns: repeat(1, 1fr);
+    width: 142%;
+    left: -80px;
+  }
+  .ammout__items div{
+    height: 100px;
+  font-size: 20px;
+  }
+  .amount__doc h1{
+    font-size: 50px;
+  }
+  .amount__doc p{
+    font-size: 16px;
+  }
+  .amount__doc button{
+    width: 300px;
+    height: 75px;
   }
 }
 @media all and (min-width: 425px) and (max-width: 768px) {
@@ -155,6 +171,8 @@
   }
   .amount__panal{
     grid-template-columns: repeat(1, 1fr);
+    width: 122%;
+    left: -80px;
   }
   .ammout__items div{
     height: 100px;
@@ -250,6 +268,8 @@
   }
   .amount__panal{
     grid-template-columns: repeat(1, 1fr);
+    width: 115%;
+    left: -80px;
   }
   .ammout__items div{
     height: 100px;
@@ -348,6 +368,8 @@
   }
   .amount__panal{
     grid-template-columns: repeat(2, 1fr);
+    width: 110%;
+    left: -80px;
   }
   .ammout__items div{
     height: 100px;
@@ -448,7 +470,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .amount__panal{
+    width: 107%;
+    left: -80px;
     grid-template-columns: repeat(2, 1fr);
+    
   }
   .ammout__items div{
     height: 100px;
