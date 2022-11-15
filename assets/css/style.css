@@ -254,7 +254,7 @@
   position: relative;
   margin-top: 60px;
   display: grid;
-  
+  bottom: -18px;
   align-items: center;
   justify-content: stretch;
 }
@@ -297,4 +297,16 @@
   color: white;
   font-size: 24px;
   margin: 20px;
+}
+
+/* -------------------------footer----------------------- */
+
+footer{
+  position: relative;
+  bottom: -18px;
+  width: 107%;
+  left: -41px;
+  height: 50vh;
+  margin: 0;
+  background-color: #1754A3;
 }

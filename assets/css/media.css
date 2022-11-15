@@ -472,6 +472,7 @@
   .amount__panal{
     width: 107%;
     left: -80px;
+    bottom: -18px;
     grid-template-columns: repeat(2, 1fr);
     
   }
