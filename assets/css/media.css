@@ -300,6 +300,9 @@
     height: 100%;
     display: flex;
   }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media all and (min-width: 1440px) and (max-width: 2560px) {
   .main__title {
@@ -377,5 +380,8 @@
   .teac_lorem{
     height: 100%;
     display: flex;
+  }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
