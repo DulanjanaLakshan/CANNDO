@@ -98,15 +98,15 @@
   align-items: center;
 }
 
-.teac_ h1{
-  color: #1754A3;
+.teac_ h1 {
+  color: #1754a3;
 }
-.teac_ p{
-  color: #1754A3;
+.teac_ p {
+  color: #1754a3;
 }
 
-.teac_lorem{
-  background-color: #45A2DC;
+.teac_lorem {
+  background-color: #45a2dc;
   display: flex;
   align-items: center;
   color: white;
@@ -135,7 +135,7 @@
   align-items: stretch;
   column-gap: 5px;
 }
-.item1{
+.item1 {
   grid-column: span 3;
   grid-row: span 2;
   margin: 0;
@@ -143,54 +143,104 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.item2{
+.item2 {
   grid-column: span 2;
   grid-row: span 2;
   margin: 0;
 }
-.item3{
+.item3 {
   grid-row: span 1;
   margin: 0;
   color: white;
   background-color: #001763;
   font-size: 20px;
 }
-.item4{
+.item4 {
   grid-row: span 1;
   margin: 0;
   color: white;
-  background-color: #45A2DC;
+  background-color: #45a2dc;
   font-size: 20px;
 }
-.text_teachet{
-  background-color: #1754A3;
+.text_teachet {
+  background-color: #1754a3;
 }
-.text_teachet h3{
+.text_teachet h3 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
   color: white;
 }
-.text_teachet h4{
+.text_teachet h4 {
   font-size: 18px;
-  color: #45A2DC;
+  color: #45a2dc;
 }
-.image1{
+.image1 {
   background-image: url("../img/Rectangle 50.png");
 }
-.image2{
+.image2 {
   background-image: url("../img/Rectangle 51.png");
 }
-.image3{
+.image3 {
   background-image: url("../img/Rectangle 52.png");
 }
-.image4{
+.image4 {
   background-image: url("../img/Rectangle 53.png");
 }
-.image5{
+.image5 {
   background-image: url("../img/Rectangle 54.png");
 }
-.image6{
+.image6 {
   background-image: url("../img/Rectangle 54.png");
+}
+
+/* ----------------------------Project Panal---------------------------------- */
+
+.project__panal > h1 {
+  color: #1754a3;
+  font-size: 73px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projects__item {
+  display: grid;
+  
+  justify-items: stretch;
+  align-items: stretch;
+  gap: 5px;
+}
+.project__item__panal{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.image{
+  width: 100%;
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn__read__more{
+  background-color: #45A2DC;
+  width: 253px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0;
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.image1__project{
+  background-image: url("../img/Mask Group 2.png");
+}
+.image2__project{
+  background-image: url("../img/Mask Group 3.png");
+}
+.image3__project{
+  background-image: url("../img/Mask Group 4.png");
 }

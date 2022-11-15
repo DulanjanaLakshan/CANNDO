@@ -225,6 +225,9 @@
     height: 100%;
     display: flex;
   }
+  .projects__item{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media all and (min-width: 1024px) and (max-width: 1440px) {
   .menu {
@@ -302,6 +305,9 @@
   }
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .projects__item{
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media all and (min-width: 1440px) and (max-width: 2560px) {
@@ -382,6 +388,9 @@
     display: flex;
   }
   .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .projects__item{
     grid-template-columns: repeat(3, 1fr);
   }
 }
