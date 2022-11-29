@@ -74,6 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
  }
  .menu__section{
     width: 90%;
@@ -131,4 +132,9 @@
     height:120px;
     display: flex;
     align-items: center;
+}
+/* ------------------------------------------------------------------- */
+.about{
+    width: 90%;
+    height: 882px;
 }
