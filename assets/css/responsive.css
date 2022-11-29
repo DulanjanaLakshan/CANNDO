@@ -1,5 +1,32 @@
 @media only screen and (max-width: 1146px) {
-    .menu_list{
+    .menu_list {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1726px) {
+    .main__image {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .main__para {
+        font-size: 50px;
+    }
+
+    .main__second__para {
+        font-size: 12px;
+    }
+
+    .second__para {
+        width: 620px;
+    }
+
+    .main__button {
+        width: 300px;
+    }
+    .main_button_div{
+        width: 530px;
     }
 }
