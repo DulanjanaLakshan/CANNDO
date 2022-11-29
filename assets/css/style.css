@@ -1,312 +1,110 @@
-* {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
 
-.header {
-  width: 100%;
-  height: 20vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
+ header {
+     width: 100%;
+     height: 160px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+ header>div {
+     width: 90%;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
 
-.menu li {
-  float: left;
-}
+ .logo {
+     width: 205.73px;
+     height: 103.84px;
+     margin-left: 53px;
+     background-image: url("../img/Group 27.png");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
 
-.menu li a {
-  display: block;
-  color: #3f71b2;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
+ .menu {
+     width: 50px;
+     height: 50px;
+     background-image: url("../img/menu.png");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
 
-.menu li a:hover {
-  color: white;
-  background-color: #1754a3;
-  border-radius: 50px;
-}
+ .menu_list {
+     height: 44px;
+ }
 
-/* ----------------------------------------------------------- */
+ .menu_list ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
 
-.main__panal {
-  width: 100%;
-  height: 70vh;
-  background-color: #1754a3;
-  background-image: url("../img/Group__148.png");
-  background-position: 50px;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: relative;
-}
-.main__image img {
-  position: relative;
-  z-index: 1;
-  height: 105%;
-  top: -5%;
-}
+ .menu_list li {
+     float: left;
+     padding-right: 51px;
+ }
 
-.main__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.main__title {
-  color: #45a2dc;
-  margin-bottom: 20px;
-}
-.main__para {
-  color: white;
-}
-.main__button {
-  border-radius: 50px;
-  background-color: #45a2dc;
-  border: 0;
-  color: white;
-}
+ .menu_list li a {
+     display: block;
+     color: #3f71b2;
+     text-align: center;
+     padding: 14px 20px;
+     text-decoration: none;
+ }
 
-/* ----------------------------------------------------------- */
-
-.cando__panal {
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+ .menu_list li a:hover {
+     color: white;
+     background-color: #1754a3;
+     border-radius: 50px;
+ }
+ /* ------------------------------------------------------ */
+ main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .menu__section{
+    width: 90%;
+    height: 802px;
+    background-color: #1754A3;
+    background-image: url("../img/Group 148.png");
+    background-position: -120%;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+.main__image{
+    position: absolute;
+    right: 0;
+    top: -1.85%;
 }
-#more__btn {
-  display: none;
+.main__para{
+    font-size: 60px;
+    font-weight: bold;
+    color: #45A2DC;
+    margin-top: -20px;
 }
-.teachers__panal {
-  width: 92vw;
-  align-items: center;
+.menu__des{
+    width: 918px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.teac_ h1 {
-  color: #1754a3;
-}
-.teac_ p {
-  color: #1754a3;
-}
-
-.teac_lorem {
-  background-color: #45a2dc;
-  display: flex;
-  align-items: center;
-  color: white;
-}
-
-/* ---------------------------------------- */
-
-.grid-container {
-  margin-top: 100px;
-  display: grid;
-  padding: 10px;
-  gap: 30px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
-  text-align: center;
-  height: 50vh;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-items: stretch;
-  align-items: stretch;
-  column-gap: 5px;
-}
-.item1 {
-  grid-column: span 3;
-  grid-row: span 2;
-  margin: 0;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.item2 {
-  grid-column: span 2;
-  grid-row: span 2;
-  margin: 0;
-}
-.item3 {
-  grid-row: span 1;
-  margin: 0;
-  color: white;
-  background-color: #001763;
-  font-size: 20px;
-}
-.item4 {
-  grid-row: span 1;
-  margin: 0;
-  color: white;
-  background-color: #45a2dc;
-  font-size: 20px;
-}
-.text_teachet {
-  background-color: #1754a3;
-}
-.text_teachet h3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  color: white;
-}
-.text_teachet h4 {
-  font-size: 18px;
-  color: #45a2dc;
-}
-.image1 {
-  background-image: url("../img/Rectangle 50.png");
-}
-.image2 {
-  background-image: url("../img/Rectangle 51.png");
-}
-.image3 {
-  background-image: url("../img/Rectangle 52.png");
-}
-.image4 {
-  background-image: url("../img/Rectangle 53.png");
-}
-.image5 {
-  background-image: url("../img/Rectangle 54.png");
-}
-.image6 {
-  background-image: url("../img/Rectangle 54.png");
-}
-
-/* ----------------------------Project Panal---------------------------------- */
-
-.project__panal > h1 {
-  color: #1754a3;
-  font-size: 73px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.projects__item {
-  display: grid;
-  
-  justify-items: stretch;
-  align-items: stretch;
-  gap: 5px;
-}
-.project__item__panal{
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-.image{
-  width: 100%;
-  height: 60%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.btn__read__more{
-  background-color: #45A2DC;
-  width: 253px;
-  height: 50px;
-  border-radius: 50px;
-  border: 0;
-  margin-top: 5px;
-  font-size: 24px;
-}
-
-.image1__project{
-  background-image: url("../img/Mask Group 2.png");
-}
-.image2__project{
-  background-image: url("../img/Mask Group 3.png");
-}
-.image3__project{
-  background-image: url("../img/Mask Group 4.png");
-}
-
-/* ----------------------------amaout panal---------------------------- */
-
-.amount__panal{
- 
-  height: 100%;
-  background-color: #45A2DC;
-  position: relative;
-  margin-top: 60px;
-  display: grid;
-  bottom: -18px;
-  align-items: center;
-  justify-content: stretch;
-}
-.ammout__items{
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  height: 386px;
-}
-.ammout__items div{
-  
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color: #1754A3;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.ammount5{
-  grid-column: span 2;
-}
-
-.amount__doc{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.amount__doc button{
-  border-radius: 50px;
-  border: 0;
-  background-color: #1754A3;
-  color: white;
-  font-size: 24px;
-  margin: 20px;
-}
-
-/* -------------------------footer----------------------- */
-
-footer{
-  position: relative;
-  bottom: -18px;
-  width: 107%;
-  left: -41px;
-  height: 50vh;
-  margin: 0;
-  background-color: #1754A3;
+.main__second__para{
+    font-size: 14px;
+    color: white;
+    
 }

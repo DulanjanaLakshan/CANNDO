@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1146px) {
+    .menu_list{
+        display: none;
+    }
+}
