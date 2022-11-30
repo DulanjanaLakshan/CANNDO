@@ -11,6 +11,26 @@
     .about_des p{
         font-size: 14px;
     }
+    .teachers_panal h1{
+        font-size: 50px;
+    }
+    .teachers_panal p{
+        font-size: 15px;
+    }
+    .lorem_panal p{
+        font-size: 12px;
+        width: 650px;
+    }
+    .teachers{
+        flex-direction: column;
+        height: 477px;
+    }
+    .teachers_panal{
+        width: 100%;
+    }
+    .lorem_panal{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1726px) {
@@ -166,5 +186,17 @@
     .button_about{
         left: 0;
         margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 1412px){
+    .teachers_panal h1{
+        font-size: 80px;
+    }
+    .teachers_panal p{
+        font-size: 25px;
+    }
+    .lorem_panal p{
+        font-size: 12px;
+        width: 650px;
     }
 }

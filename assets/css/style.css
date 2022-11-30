@@ -206,13 +206,20 @@
     background-color: #45A2DC;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .teachers_panal h1,p{
     color: #1754A3;
+    font-weight: bold;
 }
 .teachers_panal h1{
     font-size: 100px;
 }
 .teachers_panal p{
     font-size: 36px;
+}
+.lorem_panal p{
+    color: white;
+    width: 70%;
+    font-size: 14px;
 }
