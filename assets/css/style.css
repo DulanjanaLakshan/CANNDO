@@ -68,158 +68,265 @@
      background-color: #1754a3;
      border-radius: 50px;
  }
- /* ------------------------------------------------------ */
- main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
- }
- .menu__section{
-    width: 90%;
-    height: 802px;
-    background-color: #1754A3;
-    background-image: url("../img/Group 148.png");
-    background-position: 140px;
-    background-repeat: no-repeat;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-.main__image{
-    position: relative;
-    right: 0;
-    top: -0.95%;
-}
-.main__para{
-    font-size: 60px;
-    font-weight: bold;
-    color: #45A2DC;
-    margin-top: -20px;
-}
-.menu__des{
-    width: 918px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.main__second__para{
-    font-size: 14px;
-    color: white;
-}
-.second__para{
-    width: 710px;
-    height: 70px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.main__button{
-    width: 403px;
-    height: 75px;
-    background-color: #45A2DC;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    font-size: 20px;
-}
-.main_button_div{
-    width: 623px;
-    height:120px;
-    display: flex;
-    align-items: center;
-}
-/* ------------------------------------------------------------------- */
-.about{
-    width: 90%;
-    height: 882px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-.about_image{
-    width: 1031px;
-    height: 666px;
-    background-image: url("../img/Mask Group 1.png");
-}
-.about_des{
-    position: relative;
-    width: 35%;
-    height: 666px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-direction: column;
-}
-.about_des h1,h2{
-    color: #1754A3;
-    font-weight: bold;
-}
-.about_des h1{
-    font-size: 100px;
-}
-.about_des h2{
-    font-size: 73px;
-}
-.about_des p{
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-}
-.button_about{
-    position: relative;
-    left: -32%;
-    bottom: 0;
-}
-.image{
-    position: absolute;
-    opacity: 0.5;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: -35%;
-}
-.teachers{
-    height: 277px;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.teachers_panal{
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.lorem_panal{
-    width: 60%;
-    height: 100%;
-    background-color: #45A2DC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.teachers_panal h1,p{
-    color: #1754A3;
-    font-weight: bold;
-}
-.teachers_panal h1{
-    font-size: 100px;
-}
-.teachers_panal p{
-    font-size: 36px;
-}
-.lorem_panal p{
-    color: white;
-    width: 70%;
-    font-size: 14px;
-}
+ /* ------------------------------------------------------ */
+ main {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .menu__section {
+     width: 90%;
+     height: 802px;
+     background-color: #1754A3;
+     background-image: url("../img/Group 148.png");
+     background-position: 140px;
+     background-repeat: no-repeat;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .main__image {
+     position: relative;
+     right: 0;
+     top: -0.95%;
+ }
+
+ .main__para {
+     font-size: 60px;
+     font-weight: bold;
+     color: #45A2DC;
+     margin-top: -20px;
+ }
+
+ .menu__des {
+     width: 918px;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .main__second__para {
+     font-size: 14px;
+     color: white;
+ }
+
+ .second__para {
+     width: 710px;
+     height: 70px;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+ }
+
+ .main__button {
+     width: 403px;
+     height: 75px;
+     background-color: #45A2DC;
+     border: none;
+     border-radius: 50px;
+     color: white;
+     font-size: 20px;
+ }
+
+ .main_button_div {
+     width: 623px;
+     height: 120px;
+     display: flex;
+     align-items: center;
+ }
+
+ /* ------------------------------------------------------------------- */
+ .about {
+     width: 90%;
+     height: 882px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+ }
+
+ .about_image {
+     width: 1031px;
+     height: 666px;
+     background-image: url("../img/Mask Group 1.png");
+ }
+
+ .about_des {
+     position: relative;
+     width: 35%;
+     height: 666px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: flex-start;
+     flex-direction: column;
+ }
+
+ .about_des h1,
+ h2 {
+     color: #1754A3;
+     font-weight: bold;
+ }
+
+ .about_des h1 {
+     font-size: 100px;
+ }
+
+ .about_des h2 {
+     font-size: 73px;
+ }
+
+ .about_des p {
+     font-size: 16px;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ .button_about {
+     position: relative;
+     left: -32%;
+     bottom: 0;
+ }
+
+ .image {
+     position: absolute;
+     opacity: 0.5;
+     width: 100%;
+     left: 0;
+     right: 0;
+     top: -35%;
+ }
+
+ .teachers {
+     height: 277px;
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .teachers_panal {
+     height: 100%;
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .lorem_panal {
+     width: 60%;
+     height: 100%;
+     background-color: #45A2DC;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .teachers_panal h1,
+ p {
+     color: #1754A3;
+     font-weight: bold;
+ }
+
+ .teachers_panal h1 {
+     font-size: 100px;
+ }
+
+ .teachers_panal p {
+     font-size: 36px;
+ }
+
+ .lorem_panal p {
+     color: white;
+     width: 70%;
+     font-size: 14px;
+ }
+
+ /* ---------------------------------------------------------- */
+ .teachars_Grid_panal {
+     width: 90%;
+     height: 1452px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .temp__grid {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: space-evenly;
+     gap: 25px;
+ }
+
+ .teachars_Grid {
+     width: 100%;
+     height: 532px;
+ }
+
+ .teacher__image {
+     width: 550px;
+     height: 380px;
+     background-image: url("../img/Rectangle 50.png");
+     background-size: cover;
+ }
+
+ .teacher__name {
+     width: 318px;
+     height: 150px;
+     background-color: #1754A3;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .teacher__name h1,
+ h4 {
+     margin-left: 15px;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .teacher__name h1 {
+     color: white;
+ }
+
+ .teacher__name h4 {
+     color: #45A2DC;
+ }
+
+ .teacher__profile {
+     width: 223px;
+     height: 75px;
+     background-color: #001763;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+     color: white;
+ }
+
+ .teacher_vote {
+     width: 223px;
+     height: 75px;
+     background-color: #45A2DC;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+ }
+
+ .teacher__text_panal {
+     display: flex;
+     width: 550px;
+     justify-content: space-between;
+ }
