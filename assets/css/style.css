@@ -137,4 +137,50 @@
 .about{
     width: 90%;
     height: 882px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.about_image{
+    width: 1031px;
+    height: 666px;
+    background-image: url("../img/Mask Group 1.png");
+}
+.about_des{
+    position: relative;
+    width: 35%;
+    height: 666px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.about_des h1,h2{
+    color: #1754A3;
+    font-weight: bold;
+}
+.about_des h1{
+    font-size: 100px;
+}
+.about_des h2{
+    font-size: 73px;
+}
+.about_des p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.button_about{
+    position: relative;
+    left: -32%;
+    bottom: 0;
+}
+.image{
+    position: absolute;
+    opacity: 0.5;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: -35%;
 }

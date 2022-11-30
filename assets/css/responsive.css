@@ -2,11 +2,23 @@
     .menu_list {
         display: none;
     }
+    .about_des h1{
+        font-size: 90px;
+    }
+    .about_des h2{
+        font-size: 65px;
+    }
+    .about_des p{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 1726px) {
     .main__image {
         display: none;
+    }
+    .about_des{
+        width: 25%;
     }
 }
 
@@ -30,6 +42,19 @@
     .main_button_div {
         width: 530px;
     }
+    .about_des h1{
+        font-size: 85px;
+    }
+    .about_des h2{
+        font-size: 60px;
+    }
+    .about_des p{
+        font-size: 14px;
+    }
+    .about:hover .about_des{
+        width: 60%;
+    }
+    
 }
 
 @media only screen and (max-width: 698px) {
@@ -103,5 +128,43 @@
 
     .main_button_div {
         width: 330px;
+    }
+    .about_des h1{
+        font-size: 80px;
+    }
+    .about_des h2{
+        font-size: 50px;
+    }
+    .about_des p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1804px){
+    .about_des{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1656px){
+    .about_des{
+        display: none;
+    }
+    .about{
+        position: relative;
+        justify-content: center;
+    }
+    .about:hover .about_image{
+        opacity: 0.5;
+    }
+    .about:hover .about_des{
+        position: absolute;
+        display: block;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button_about{
+        left: 0;
+        margin-top: 15px;
     }
 }
