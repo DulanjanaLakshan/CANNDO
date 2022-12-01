@@ -330,3 +330,135 @@
      width: 550px;
      justify-content: space-between;
  }
+
+ /* ------------------------------------------------- */
+ .project__panal {
+     width: 90%;
+     height: 1105px;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .project__about_div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+ }
+
+ .about__project {
+     width: 540px;
+     height: 680px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+
+ .about__projec__image {
+     width: 100%;
+     height: 380px;
+     background-image: url("../img/Mask\ Group\ 2.png");
+ }
+
+ .about__project h1 {
+     font-size: 30px;
+     font-weight: bold;
+     width: 430px;
+ }
+
+ .about__project p {
+     font-size: 16px;
+     width: 527px;
+     color: black;
+     font-family: 'Open Sans', sans-serif;
+     line-height: 35px;
+ }
+
+ .about__project button {
+     width: 253px;
+     height: 50px;
+     background-color: #45A2DC;
+     border: none;
+     border-radius: 50px;
+     font-size: 25px;
+     font-weight: bold;
+ }
+
+ .project__panal>div>h1 {
+     color: #1754A3;
+     font-size: 73px;
+     font-weight: bold;
+     margin-left: 50px;
+ }
+
+ /* ---------------------------------- */
+ .amount__panal {
+     width: 100%;
+     height: 666px;
+     background-color: #45A2DC;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .amount__panal>div {
+     width: 40%;
+     height: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .amount__grid {
+     width: 648px;
+     height: 283px;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 25px;
+
+ }
+ .amount__grid>div{
+    background-color: #1754A3;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+ }
+ .amount__grid>div>h1{
+    font-weight: bold;
+    font-size: 41px;
+ }
+ .amount__grid>div>h5{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .item5{
+    grid-column: 2/ 4;
+ }
+ .amount__lorem h1{
+    font-size: 72px;
+    font-weight: bold;
+    width: 716px;
+    height: 223px;
+ }
+
+ .amount__lorem p{
+    font-size: 16px;
+    width: 682px;
+    height: 83px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .amount__lorem button{
+    width: 403px;
+    height: 75px;
+    background-color: #1754A3;
+    border: none;
+    border-radius: 50px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+ }
