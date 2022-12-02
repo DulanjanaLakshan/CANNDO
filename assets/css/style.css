@@ -114,7 +114,7 @@
  }
 
  .main__second__para {
-     font-size: 14px;
+     font-size: 13px;
      color: white;
  }
 
@@ -333,14 +333,17 @@
 
  /* ------------------------------------------------- */
  .project__panal {
-     width: 90%;
-     height: 1105px;
-     position: relative;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    width: 90%;
+    height: 810px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
  }
-
+.about__project__image{
+    position: absolute;
+    left: -7%;
+}
  .project__about_div {
      display: flex;
      justify-content: center;
@@ -526,7 +529,7 @@
 
  .facebook {
      background-image: url("../img/Group 93.png");
-     border-right: 1px solid white;
+   
  }
 
  .twitter {
@@ -535,7 +538,7 @@
 
  .instargam {
      background-image: url("../img/Group 91.png");
-     border-left: 1px solid white;
+    
  }
 
  .menu__logo {
@@ -562,7 +565,11 @@
      height: 24px;
      background-image: url("../img/Group\ 96.png");
  }
-
+.media_i_div{
+     height: 60px;
+     margin: 5px;
+     border: 1px solid white;
+}
  .footer__details {
      color: white;
  }
